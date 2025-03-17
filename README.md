@@ -1,6 +1,37 @@
 # VSDSquadron-FPGA-Mini
 ![images](https://github.com/user-attachments/assets/a6e22a90-a895-4119-9775-e3375795449f)
 
+**VSDSquadron FPGA Mini Board**
+The VSDSquadron FPGA Mini (FM) board is a compact and affordable development platform designed for FPGA prototyping and embedded system applications. It features the Lattice iCE40UP5K FPGA, providing a balance between flexibility and power efficiency.
+
+**Key Features:**
+
+FPGA: Lattice iCE40UP5K (5.3K LUTs, 1Mb SPRAM, 120Kb DPRAM)
+
+Connectivity: FTDI FT232H USB-to-SPI for programming and communication
+
+GPIO: 32 FPGA GPIOs exposed for interfacing and prototyping
+
+Memory: 4MB SPI Flash for configuration and data storage
+
+Power: Onboard 3.3V and 1.2V regulators, supports external 3.3V supply
+
+LEDs: Integrated RGB LED for status indication or custom applications
+
+Form Factor: 57mm × 29mm, compact with accessible pins
+
+**Applications:**
+
+FPGA-based hardware prototyping
+
+Embedded control systems
+
+Digital logic design experiments
+
+Custom LED drivers and visual indicators
+
+FPGA education and learning
+
 ## Task 1 ##
 **Step 1 - Understanding verilog code**
 The module given to us is this - https://github.com/thesourcerer8/VSDSquadron_FM/blob/main/led_blue/top.v
@@ -71,6 +102,8 @@ hw_clk (Pin 20): This pin is used as the external hardware oscillator input. It 
 
 
 testwire (Pin 17): This pin outputs bit 5 of the frequency counter, providing an external indication of the internal counter state.
+
+**Step 3 - Integrating with the VSDSquadron FPGA Mini Board**
 
  
 
