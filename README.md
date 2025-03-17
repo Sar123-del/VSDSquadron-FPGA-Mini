@@ -61,13 +61,16 @@ led_green 41
 hw_clk 20
 testwire 17
 
+
 led_red, led_blue, led_green (Pins 39, 40, 41): These pins are assigned to drive the RGB LED on the FPGA board. The module ensures that the blue LED is ON while the red and green LEDs are OFF.
+
 
 hw_clk (Pin 20): This pin is used as the external hardware oscillator input. It is not utilized in the current module, but could be used for precise timing instead of the internal oscillator.
 
+
 testwire (Pin 17): This pin outputs bit 5 of the frequency counter, providing an external indication of the internal counter state.
 
-These assignments ensure correct operation of the LED control logic and allow for debugging via testwire. 
+ 
 
 
 
