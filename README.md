@@ -1,4 +1,6 @@
 # VSDSquadron-FPGA-Mini
+![images](https://github.com/user-attachments/assets/a6e22a90-a895-4119-9775-e3375795449f)
+
 ## Task 1 ##
 **Step 1 - Understanding verilog code**
 The module given to us is this - https://github.com/thesourcerer8/VSDSquadron_FM/blob/main/led_blue/top.v
