@@ -45,6 +45,12 @@ The module ensures that only the blue LED remains ON while red and green remain 
 
 The testwire output allows monitoring of the frequency counter operation by exposing its 5th bit.
 
-This module is useful for basic LED control applications using an FPGA 
+This module is useful for basic LED control applications using an FPGA
+
+**Step 2 - Creating the PCF File**
+The PCF file given to us - https://github.com/thesourcerer8/VSDSquadron_FM/blob/main/led_blue/VSDSquadronFM.pcf
+The pin assignment table given in the datasheet -
+![Screenshot (150)](https://github.com/user-attachments/assets/bc7638b8-8f1b-431b-9458-2ccbaaaea18e)
+
 
 
