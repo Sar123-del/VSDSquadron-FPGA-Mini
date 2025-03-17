@@ -55,6 +55,8 @@ The pin assignment table given in the datasheet -
 ![Screenshot (150)](https://github.com/user-attachments/assets/bc7638b8-8f1b-431b-9458-2ccbaaaea18e)
 
 **Significance of Each Connection**
+
+
 led_red	39
 led_blue 40
 led_green 41
