@@ -104,6 +104,13 @@ hw_clk (Pin 20): This pin is used as the external hardware oscillator input. It 
 testwire (Pin 17): This pin outputs bit 5 of the frequency counter, providing an external indication of the internal counter state.
 
 **Step 3 - Integrating with the VSDSquadron FPGA Mini Board**
+This was the makefile given to us - https://github.com/thesourcerer8/VSDSquadron_FM/blob/main/led_blue/Makefile
+Following are the steps to integrate the file with VSDSquadron FPGA board -
+1. Open the terminal
+2. Change the directory to the folder in which you have the verilog code and pcf file
+   bash ""
+       cd blue_led
+   ""
 
  
 
