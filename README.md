@@ -110,7 +110,7 @@ Following are the steps to integrate the file with VSDSquadron FPGA board -
 2. Change the directory to the folder in which you have the verilog code and pcf file
    bash ""
        cd blue_led
-   ""
+        ""
 
  
 
