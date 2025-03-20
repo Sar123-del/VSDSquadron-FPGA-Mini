@@ -108,9 +108,20 @@ This was the makefile given to us - https://github.com/thesourcerer8/VSDSquadron
 Following are the steps to integrate the file with VSDSquadron FPGA board -
 1. Open the terminal
 2. Change the directory to the folder in which you have the verilog code and pcf file
-   bash ""
-       cd blue_led
-        ""
+   Write - cd blue_led
+   ![Untitled](https://github.com/user-attachments/assets/8908ae68-8435-49ad-84cc-e07549b6daa1)
+3. Now enter the Makefile
+   ![Untitled](https://github.com/user-attachments/assets/2d65c55a-fd45-4e18-85a8-ea36ec4b01ba)
+4. Now the programming will start and blue led will be flashed in the board
+   ![Untitled](https://github.com/user-attachments/assets/7cd2cfbd-0d6a-47c2-b0bd-dd3013561e0b)
+   ![Untitled](https://github.com/user-attachments/assets/53e31433-c120-4a10-918c-410110cfd732)
+
+
+
+   
+
+
+ 
 
  
 
