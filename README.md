@@ -173,7 +173,7 @@ This functionality is implemented in two main Verilog files:
 6. Arrows – Indicate the direction of data flow from RX to Receiver, through the Loopback Block, to the Transmitter, and out as TX. The LED is connected to the Receiver for visual feedback.
 
  A detailed circuit diagram showing connections between the FPGA and peripheral devices used.
- ![Image](https://github.com/user-attachments/assets/3af0100e-e1d4-4b37-8a2f-7ec84fed7847)
+
    
    
 
