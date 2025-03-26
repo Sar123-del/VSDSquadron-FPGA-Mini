@@ -183,7 +183,9 @@ This functionality is implemented in two main Verilog files:
    1. Open terminal
    2. Change the directory to which your verilog file and pcf are there.
       enter - cd Uart
-   3.
+   3. Enter the makefile
+      ![Untitled](https://github.com/user-attachments/assets/d097944d-9d1b-4e86-95eb-858202ddb309)
+
 
    
    
