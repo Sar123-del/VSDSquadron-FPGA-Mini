@@ -198,7 +198,7 @@ This functionality is implemented in two main Verilog files:
        
     ![Untitled](https://github.com/user-attachments/assets/1f89e596-e46f-485a-a373-96a8ce868f16)
        
-    b. Start terminal by entering - make terminal
+  b. Start terminal by entering - make terminal
        
      ![Untitled](https://github.com/user-attachments/assets/a819bb36-1bd9-4b89-b108-2484990285a3)
 
