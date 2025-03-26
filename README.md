@@ -171,7 +171,8 @@ This functionality is implemented in two main Verilog files:
 5. RGB LED – Displays the first three bits of the received data as a visual indication of UART activity.
 
 6. Arrows – Indicate the direction of data flow from RX to Receiver, through the Loopback Block, to the Transmitter, and out as TX. The LED is connected to the Receiver for visual feedback.
-   
+
+ A detailed circuit diagram showing connections between the FPGA and peripheral devices used.
    
    
 
