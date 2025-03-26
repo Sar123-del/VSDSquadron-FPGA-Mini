@@ -191,6 +191,12 @@ This functionality is implemented in two main Verilog files:
       
       ![Untitled](https://github.com/user-attachments/assets/4279862f-7ef3-493c-bc5d-1ebdfe34c563)
 
+  **Step -4 Testing and Verification**
+
+    1. 
+
+
+
 
 
    
