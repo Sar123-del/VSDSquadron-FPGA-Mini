@@ -184,7 +184,13 @@ This functionality is implemented in two main Verilog files:
    2. Change the directory to which your verilog file and pcf are there.
       enter - cd Uart
    3. Enter the makefile
+      
       ![Untitled](https://github.com/user-attachments/assets/d097944d-9d1b-4e86-95eb-858202ddb309)
+      
+   4. Now a red led will glow and our code has been run successfully
+      
+      ![Untitled](https://github.com/user-attachments/assets/4279862f-7ef3-493c-bc5d-1ebdfe34c563)
+
 
 
    
