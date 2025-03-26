@@ -174,6 +174,10 @@ This functionality is implemented in two main Verilog files:
 
  A detailed circuit diagram showing connections between the FPGA and peripheral devices used.
 
+ ![Image](https://github.com/user-attachments/assets/dfac0484-744e-4d7f-9321-d1673d234467)
+
+   **Step -3 Implementation**
+
    
    
 
