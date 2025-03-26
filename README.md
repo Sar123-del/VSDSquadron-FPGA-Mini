@@ -193,7 +193,16 @@ This functionality is implemented in two main Verilog files:
 
   **Step -4 Testing and Verification**
 
-    1. 
+    1. Open serial terminal
+       Download picocom by entering commmand - sudo apt install picocom
+       
+       ![Untitled](https://github.com/user-attachments/assets/1f89e596-e46f-485a-a373-96a8ce868f16)
+       
+       Start terminal by entering - make terminal
+       
+       ![Untitled](https://github.com/user-attachments/assets/a819bb36-1bd9-4b89-b108-2484990285a3)
+
+
 
 
 
