@@ -178,6 +178,13 @@ This functionality is implemented in two main Verilog files:
 
    **Step -3 Implementation**
 
+   Makefile and verilog file given to us can be access from here - https://github.com/thesourcerer8/VSDSquadron_FM/tree/main/uart_loopback 
+   
+   1. Open terminal
+   2. Change the directory to which your verilog file and pcf are there.
+      enter - cd Uart
+   3.
+
    
    
 
