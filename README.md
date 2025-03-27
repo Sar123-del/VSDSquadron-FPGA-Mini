@@ -193,16 +193,10 @@ This functionality is implemented in two main Verilog files:
 
   **Step -4 Testing and Verification**
 
-    1. Open serial terminal
-   a. Download picocom by entering commmand - sudo apt install picocom
-       
-   ![Untitled](https://github.com/user-attachments/assets/1f89e596-e46f-485a-a373-96a8ce868f16)
-       
-  b. Start terminal by entering - make terminal
-       
-   ![Untitled](https://github.com/user-attachments/assets/a819bb36-1bd9-4b89-b108-2484990285a3)
-
-
+ 1. For this we will be using a software known as docklight, we can download it from their own website
+ 2. Open docklight, check if your system is connected to the right COM. In my case it is COM7. Verify that the speed is set to 9600
+ 3. Then, double click on the small blue box below Send Sequences and enter the name and sequence and click ok.
+ 4. Click an arrow below Tools and then click the arrow near the name in the blue box and verify the results
 
 
 
