@@ -206,6 +206,10 @@ This functionality is implemented in two main Verilog files:
 
     ![Screenshot (158)](https://github.com/user-attachments/assets/fccda6ab-9ab5-494b-9a1f-2b3b96901478)
 
+    **Video demonstration**
+
+ https://github.com/user-attachments/assets/370e20cc-b9b6-417b-b359-ec561e7105f0
+
 
     
 
