@@ -206,6 +206,8 @@ This functionality is implemented in two main Verilog files:
 
     ![Screenshot (158)](https://github.com/user-attachments/assets/fccda6ab-9ab5-494b-9a1f-2b3b96901478)
 
+    https://github.com/user-attachments/assets/06ffd1c7-d326-4b0c-a8a7-1ac65d5a37da
+
     
 
 
