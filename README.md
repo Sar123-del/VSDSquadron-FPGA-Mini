@@ -195,8 +195,17 @@ This functionality is implemented in two main Verilog files:
 
  1. For this we will be using a software known as docklight, we can download it from their own website
  2. Open docklight, check if your system is connected to the right COM. In my case it is COM7. Verify that the speed is set to 9600
+    
+  ![Screenshot (154)](https://github.com/user-attachments/assets/d57666a1-daa4-4872-be38-662af0595f18)
+
  3. Then, double click on the small blue box below Send Sequences and enter the name and sequence and click ok.
+    
+    ![Screenshot (157)](https://github.com/user-attachments/assets/5b87173c-4ce8-4d78-b03a-9ccdf091ebbf)
+
  4. Click an arrow below Tools and then click the arrow near the name in the blue box and verify the results
+
+    ![Screenshot (158)](https://github.com/user-attachments/assets/fccda6ab-9ab5-494b-9a1f-2b3b96901478)
+
 
 
 
