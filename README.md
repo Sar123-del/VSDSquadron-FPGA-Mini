@@ -210,6 +210,36 @@ This functionality is implemented in two main Verilog files:
 
  https://github.com/user-attachments/assets/370e20cc-b9b6-417b-b359-ec561e7105f0
 
+ # Task -3
+
+ **Overview**
+ This project focuses on FPGA-based digital design. The UART transmitter (uart_tx) module is responsible for serial communication by converting parallel data into a serial data stream.   This is crucial for interfacing FPGA boards with external devices such as PCs or microcontrollers.
+
+ **Verilog Code Analyze**
+
+1. **top.v (Top-Level Module)*
+
+    Acts as the main module, integrating different components.
+
+    Instantiates the UART transceiver (uart_trx.v) along with other logic.
+
+    Manages clocking, reset signals, and data flow.
+
+    Defines I/O connections for FPGA hardware interfacing.
+
+2. **uart_trx.v (UART Transceiver)*
+
+    Implements both transmitter (TX) and receiver (RX) functionalities.
+
+    Handles data framing (start bit, 8 data bits, optional parity, stop bit).
+
+    Manages baud rate generation to ensure correct timing.
+
+    Uses a Finite State Machine (FSM) to control transmission and reception. 
+
+ 
+ 
+
 
     
 
