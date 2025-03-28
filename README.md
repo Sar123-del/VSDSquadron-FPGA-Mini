@@ -255,19 +255,22 @@ This functionality is implemented in two main Verilog files:
 +------------------+
 | Parallel Data In |
 +--------+---------+
+
          |
          v
 +------------------+
 |  Shift Register  |
 +--------+---------+
+
          |
          v
 +------------------+       +----------------------+
-| Control Logic    | <---- | Baud Rate Generator  |
-| (FSM)           |       +----------------------+
+| Control Logic    |  <----| Baud Rate Generator  |
+| (FSM)            |       +----------------------+
 +--------+---------+
          |
          v
+         
 +------------------+
 | Serial Data Out  |
 | (TX)             |
