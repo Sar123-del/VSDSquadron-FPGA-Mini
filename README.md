@@ -252,29 +252,7 @@ This functionality is implemented in two main Verilog files:
 
    A block diagram detailing the UART transmitter module.
 
-+------------------+
-| Parallel Data In |
-+--------+---------+
-
-         |
-         v
-+------------------+
-|  Shift Register  |
-+--------+---------+
-
-         |
-         v
-+------------------+       +----------------------+
-| Control Logic    |  <----| Baud Rate Generator  |
-| (FSM)            |       +----------------------+
-+--------+---------+
-         |
-         v
-         
-+------------------+
-| Serial Data Out  |
-| (TX)             |
-+------------------+
+ ![uart_rx_tx](https://github.com/user-attachments/assets/81ef0d26-2dcb-48e2-aeb8-027f69bc3256)
 
  A circuit diagram illustrating the FPGA's UART TX pin connection to the receiving device.
 
