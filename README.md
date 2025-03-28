@@ -213,11 +213,12 @@ This functionality is implemented in two main Verilog files:
  # Task -3
 
  **Overview**
+ 
  This project focuses on FPGA-based digital design. The UART transmitter (uart_tx) module is responsible for serial communication by converting parallel data into a serial data stream.   This is crucial for interfacing FPGA boards with external devices such as PCs or microcontrollers.
 
  **Verilog Code Analyze**
 
-1. **top.v (Top-Level Module)*
+1.  *top.v (Top-Level Module)*
 
     Acts as the main module, integrating different components.
 
@@ -227,7 +228,7 @@ This functionality is implemented in two main Verilog files:
 
     Defines I/O connections for FPGA hardware interfacing.
 
-2. **uart_trx.v (UART Transceiver)*
+2. *uart_trx.v (UART Transceiver)*
 
     Implements both transmitter (TX) and receiver (RX) functionalities.
 
@@ -235,7 +236,14 @@ This functionality is implemented in two main Verilog files:
 
     Manages baud rate generation to ensure correct timing.
 
-    Uses a Finite State Machine (FSM) to control transmission and reception. 
+    Uses a Finite State Machine (FSM) to control transmission and reception.
+   
+   **Pin Mapping**
+   The PCF (Physical Constraints File) in the VSDSquadron_FM UART project is used to map logical signals from the Verilog code to specific FPGA pins. It ensures that important signals      like the system clock, reset, UART transmit (TX), and UART receive (RX) are correctly connected to the FPGA hardware.
+
+   For example, the TX signal is assigned to a particular FPGA pin to send serial data, while the RX signal is mapped to receive incoming data. The clock and reset signals are also         assigned to appropriate pins to control the system timing and initialization.
+
+   To ensure proper operation, the PCF file should match the specific pin layout of the FPGA board. If needed, the pin mappings can be modified based on the board’s documentation.
 
  
  
