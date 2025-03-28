@@ -260,6 +260,30 @@ This functionality is implemented in two main Verilog files:
 
  **Step - 3  Implementation**
 
+ The files given to us are - https://github.com/thesourcerer8/VSDSquadron_FM/tree/main/uart_tx
+ 
+ 1. Open terminal
+ 2. Change the directory to the folder in which you have all the files (verilog code, PCF file, makefile)
+    
+    ![Untitled](https://github.com/user-attachments/assets/456218c4-2743-48c1-8563-e5b8bd52dff5)
+
+ 3. Enter the makefile
+    ![Untitled](https://github.com/user-attachments/assets/739e8f05-df48-4664-9720-22f32a597c3c)
+
+ 4. Rgb led will start glowing
+
+ That's all our  code is transmitted
+ 
+ **Step - 4  Testing and Verification**
+ 1. Install the picocom by entering - sudo apt install picocom
+ 2. Enter - make terminal
+ 3. A series of D will start coming in the terminal
+    ![Untitled](https://github.com/user-attachments/assets/10357aeb-fe31-451c-b3fe-5bc1ed81edbf)
+
+  **Video demonstartion**
+  
+
+
  
 
 
