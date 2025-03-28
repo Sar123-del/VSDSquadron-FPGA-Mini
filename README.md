@@ -211,6 +211,8 @@ This functionality is implemented in two main Verilog files:
  https://github.com/user-attachments/assets/370e20cc-b9b6-417b-b359-ec561e7105f0
 
  # Task -3
+ 
+ **Step - 1  Study the Existing Code**
 
  **Overview**
  
@@ -239,13 +241,42 @@ This functionality is implemented in two main Verilog files:
     Uses a Finite State Machine (FSM) to control transmission and reception.
    
    **Pin Mapping**
+   
    The PCF (Physical Constraints File) in the VSDSquadron_FM UART project is used to map logical signals from the Verilog code to specific FPGA pins. It ensures that important signals      like the system clock, reset, UART transmit (TX), and UART receive (RX) are correctly connected to the FPGA hardware.
 
    For example, the TX signal is assigned to a particular FPGA pin to send serial data, while the RX signal is mapped to receive incoming data. The clock and reset signals are also         assigned to appropriate pins to control the system timing and initialization.
 
    To ensure proper operation, the PCF file should match the specific pin layout of the FPGA board. If needed, the pin mappings can be modified based on the board’s documentation.
 
- 
+   **Step - 2 Visual Description**
+
+   A block diagram detailing the UART transmitter module.
+
++------------------+
+| Parallel Data In |
++--------+---------+
+         |
+         v
++------------------+
+|  Shift Register  |
++--------+---------+
+         |
+         v
++------------------+       +----------------------+
+| Control Logic    | <---- | Baud Rate Generator  |
+| (FSM)           |       +----------------------+
++--------+---------+
+         |
+         v
++------------------+
+| Serial Data Out  |
+| (TX)             |
++------------------+
+
+ A circuit diagram illustrating the FPGA's UART TX pin connection to the receiving device.
+
+ ![circuit 3 ](https://github.com/user-attachments/assets/5d3ffcea-3d5c-4602-a58e-1d4bb9a330e7)
+
  
 
 
