@@ -258,6 +258,8 @@ This functionality is implemented in two main Verilog files:
 
  ![circuit 3 ](https://github.com/user-attachments/assets/5d3ffcea-3d5c-4602-a58e-1d4bb9a330e7)
 
+ **Step - 3  Implementation**
+
  
 
 
