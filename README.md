@@ -32,7 +32,7 @@ Custom LED drivers and visual indicators
 
 FPGA education and learning
 
-## Task 1 ##
+# Task 1 
 **Step 1 - Understanding verilog code**
 The module given to us is this - https://github.com/thesourcerer8/VSDSquadron_FM/blob/main/led_blue/top.v
 
