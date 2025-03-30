@@ -282,6 +282,8 @@ This functionality is implemented in two main Verilog files:
 
   **Video demonstartion**
 
+  https://github.com/user-attachments/assets/d6591281-ba36-429b-bc70-c8d015d2ab9e
+
   
 
 
