@@ -281,6 +281,7 @@ This functionality is implemented in two main Verilog files:
     ![Untitled](https://github.com/user-attachments/assets/10357aeb-fe31-451c-b3fe-5bc1ed81edbf)
 
   **Video demonstartion**
+
   
 
 
