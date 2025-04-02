@@ -370,6 +370,8 @@ This functionality is implemented in two main Verilog files:
 
 ![Untitled-1](https://github.com/user-attachments/assets/7ff45c76-6d16-4dbd-b8eb-eeb93eea2c3a)
 
+**Video demonstration**
+
 
 
  
