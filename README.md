@@ -372,6 +372,8 @@ This functionality is implemented in two main Verilog files:
 
 **Video demonstration**
 
+https://github.com/user-attachments/assets/33e8fb6e-daad-487e-8302-82dd0b5673c8
+
 
 
  
