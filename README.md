@@ -331,7 +331,7 @@ This functionality is implemented in two main Verilog files:
 
          This signal triggers data transmission when new sensor data is ready.
 
-  **Step - 2 Visual Description**
+   **Step - 2 Visual Description**
   
 
 
