@@ -283,6 +283,35 @@ This functionality is implemented in two main Verilog files:
   **Video demonstartion**
 
   https://github.com/user-attachments/assets/d6591281-ba36-429b-bc70-c8d015d2ab9e
+  
+   # Task -3
+ 
+ **Step - 1  Study the Existing Code**
+
+  The uart_tx_sense module in the VSDSquadron_FM repository is designed to acquire sensor data and transmit it via UART. Here's an overview of its functionality:​
+
+   1. Clock Management:
+
+      The module utilizes an internal oscillator (SB_HFOSC) to generate a stable clock signal.​
+       
+      A clock divider is implemented to derive the baud rate necessary for UART communication. This divider ensures that data transmission aligns with standard UART timing requirements.​
+
+   2. State Machine for UART Transmission:
+
+      The module employs a finite state machine (FSM) to manage the UART transmission process. The FSM transitions through states such as IDLE, START, DATA, and STOP to control the            sequence of data transmission.​
+       
+      In the IDLE state, the transmitter awaits a load signal indicating that data is ready for transmission. Upon receiving this signal, it moves to the START state to send the               start bit, followed by the DATA state to transmit the actual data bits, and finally to the STOP state to send the stop bit before returning to IDLE.​
+        
+
+   3. Sensor Data Acquisition:
+
+       The module interfaces with sensors to collect data, which is then prepared for transmission. The specifics of sensor interfacing depend on the sensor type and communication              protocol used.​
+
+   4. Data Transmission:
+
+      Once sensor data is acquired, it's loaded into a shift register. The FSM controls the shifting process to serially transmit the data bits over the UART interface.​
+      
+      The module ensures that each byte of data is framed with start and stop bits, adhering to the standard UART protocol.
 
   
 
