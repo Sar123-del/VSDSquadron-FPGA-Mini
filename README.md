@@ -361,6 +361,17 @@ This functionality is implemented in two main Verilog files:
 
  That's all our  code is transmitted
 
+  **Step - 4  Testing and Verification**
+ 1. Install the picocom by entering - sudo apt install picocom
+ 2. Enter - make terminal
+ 3. A series of D will start coming in the terminal
+    
+   ![Untitled-1](https://github.com/user-attachments/assets/061ec59f-81e0-4a6b-b88e-ea7d004d9a3c)
+
+   ![Untitled-1](https://github.com/user-attachments/assets/7ff45c76-6d16-4dbd-b8eb-eeb93eea2c3a)
+
+
+
  
 
 
