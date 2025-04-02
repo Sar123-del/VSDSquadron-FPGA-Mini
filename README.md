@@ -313,6 +313,25 @@ This functionality is implemented in two main Verilog files:
       
       The module ensures that each byte of data is framed with start and stop bits, adhering to the standard UART protocol.
 
+      **Pin Mapping**
+     
+        Clock Input (clk)
+
+         An internal oscillator (SB_HFOSC) generates the clock signal used for UART transmission timing.
+
+        UART Transmit (tx pin)
+
+         The UART transmission pin (tx) sends sensor data serially. It is driven by the state machine handling UART transmission.
+
+       Sensor Data Input (sensor_data or equivalent)
+
+         The module reads sensor data, which is then transmitted over UART. The specific pin depends on the sensor connection.
+
+       Load/Enable Signal (load or tx_en)
+
+         This signal triggers data transmission when new sensor data is ready.
+
+  **Step - 2 Visual Description**
   
 
 
