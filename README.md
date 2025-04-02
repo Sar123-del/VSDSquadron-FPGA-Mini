@@ -342,6 +342,25 @@ This functionality is implemented in two main Verilog files:
  ![52a01124-9e9a-45d6-900a-2b1942e94696](https://github.com/user-attachments/assets/946b7f27-89cf-4234-b175-5d489b2f3485)
 
 
+ **Step - 3  Implementation**
+
+ The files given to us are - https://github.com/thesourcerer8/VSDSquadron_FM/tree/main/uart_tx_sense
+ 
+ 1. Open terminal
+ 2. Change the directory to the folder in which you have all the files (verilog code, PCF file, makefile)
+    
+   ![Untitled-1](https://github.com/user-attachments/assets/a5f3764c-cff6-419f-9201-fb2715ddca8f)
+
+ 3. Enter sudo make build and sudo make flash
+    
+   ![Untitled-1](https://github.com/user-attachments/assets/0d1316f0-2075-4070-b157-b537f617fb45)
+
+   ![Untitled-1](https://github.com/user-attachments/assets/a3d29c0e-6f9b-4ca4-ac45-6de646cfcce5)
+
+ 4. Red led will start glowing
+
+ That's all our  code is transmitted
+
  
 
 
