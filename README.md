@@ -332,7 +332,14 @@ This functionality is implemented in two main Verilog files:
          This signal triggers data transmission when new sensor data is ready.
 
    **Step - 2 Visual Description**
+
+  A block diagram depicting the integration of the sensor module with the UART transmitter.
   
+ ![Image](https://github.com/user-attachments/assets/fddd5f7a-d48d-485b-94ba-0c0bef53d02d)
+
+  A circuit diagram showing connections between the FPGA, sensor, and the receiving device.
+  
+ ![52a01124-9e9a-45d6-900a-2b1942e94696](https://github.com/user-attachments/assets/946b7f27-89cf-4234-b175-5d489b2f3485)
 
 
  
