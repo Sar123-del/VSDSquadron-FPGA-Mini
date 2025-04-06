@@ -402,6 +402,12 @@ This project successfully demonstrates a low-cost, FPGA-based real-time sensing 
  **Visual Description**
 
   Block Diagram
+  ![Image](https://github.com/user-attachments/assets/976b4c2a-a539-4b27-a31f-554989eeeca3)
+  
+  Circuit Diagram
+ ![b0dd9f2e-61f6-40b6-be9d-f3c0b04111fc](https://github.com/user-attachments/assets/58f956a2-058e-4e8e-a2ac-cddb2300a32a)
+
+
 
 
 
