@@ -411,13 +411,13 @@ This project involves interfacing the HC-SR04 ultrasonic sensor with a  FPGA boa
 
   **Project Files**
 
-    top.v: Verilog RTL for pulse generation and echo timing.
+   top.v: Verilog RTL for pulse generation and echo timing.
 
-    constraints.pcf: FPGA pin mapping specific to the VSDSquadron board.
+  constraints.pcf: FPGA pin mapping specific to the VSDSquadron board.
 
-    Makefile: Automates synthesis, place-and-route, and bitstream generation.
+  Makefile: Automates synthesis, place-and-route, and bitstream generation.
 
-    top.bin: Final output bitstream for flashing onto the FPGA.
+  top.bin: Final output bitstream for flashing onto the FPGA.
 
  **Outcome**
 
