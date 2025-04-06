@@ -374,6 +374,56 @@ This functionality is implemented in two main Verilog files:
 
 https://github.com/user-attachments/assets/33e8fb6e-daad-487e-8302-82dd0b5673c8
 
+# Task - 5
+
+**Real-Time Sensor Data Acquisition and Transmission System**
+
+**Overview**
+To design and implement a real-time system that acquires distance measurements from an ultrasonic sensor (HC-SR04), processes the data using an FPGA (iCE40HX1K on VSDSquadron board), and prepares it for transmission or further interfacing.
+
+ **System Description**
+
+This project involves interfacing the HC-SR04 ultrasonic sensor with a  FPGA board. The system sends a trigger signal to the sensor, receives the echo pulse indicating distance, and uses the FPGA’s internal logic to measure the time-of-flight. This timing data represents the distance to an object and can be used for a variety of embedded and real-time applications.
+
+   **Key Features**
+
+    Real-time processing using Verilog on the iCE40HX1K FPGA.
+
+    Trigger generation and echo pulse measurement logic.
+
+    Precise distance timing based on the echo pulse width.
+
+    Configurable via constraints (.pcf) and fully open-source toolchain (Yosys, nextpnr, IceStorm).
+
+    Ready for UART/Display interfacing (optional extension).
+
+ **Working Principle**
+
+    The FPGA sends a 10μs HIGH pulse to the TRIG pin of the HC-SR04.
+
+    The sensor emits an ultrasonic burst and waits for it to reflect.
+
+    When the echo is detected, the ECHO pin goes HIGH for a duration proportional to the distance.
+
+    The FPGA measures this HIGH duration using a counter running on the system clock.
+
+    The result can be displayed or transmitted via UART 
+
+  **Project Files**
+
+    top.v: Verilog RTL for pulse generation and echo timing.
+
+    constraints.pcf: FPGA pin mapping specific to the VSDSquadron board.
+
+    Makefile: Automates synthesis, place-and-route, and bitstream generation.
+
+    top.bin: Final output bitstream for flashing onto the FPGA.
+
+ **Outcome**
+
+This project successfully demonstrates a low-cost, FPGA-based real-time sensing system using basic Verilog and open-source tools. It serves as a foundational block for more complex applications such as robotics, distance measurement systems, and real-time embedded control.
+
+
 
 
  
