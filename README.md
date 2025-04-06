@@ -419,6 +419,8 @@ This project successfully demonstrates a low-cost, FPGA-based real-time sensing 
  3. Serial teminal will open and distance will come
 
  **Video Demostartion**
+
+ https://github.com/user-attachments/assets/cae671fa-d5d9-4a52-a158-7cc39ce7dd3a
  
 
 
