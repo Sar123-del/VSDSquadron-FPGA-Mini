@@ -407,6 +407,17 @@ This project successfully demonstrates a low-cost, FPGA-based real-time sensing 
   Circuit Diagram
  ![b0dd9f2e-61f6-40b6-be9d-f3c0b04111fc](https://github.com/user-attachments/assets/58f956a2-058e-4e8e-a2ac-cddb2300a32a)
 
+ **Implementation**
+ 1. Open the terminal
+ 2. Change the directory to the folder in which you have your verilog file, pcf file, makefile
+ 3. Enter sudo make build and sudo make flash
+    That's all program has been uploded
+
+ **Testing and Verfication**
+ 1. Install picocom by entering sudo apt install picocom
+ 2. Enter make terminal
+ 3. Serial teminal will open and distance will come
+ 
 
 
 
