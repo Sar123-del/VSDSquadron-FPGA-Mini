@@ -386,19 +386,14 @@ To design and implement a real-time system that acquires distance measurements f
 This project involves interfacing the HC-SR04 ultrasonic sensor with a  FPGA board. The system sends a trigger signal to the sensor, receives the echo pulse indicating distance, and uses the FPGA’s internal logic to measure the time-of-flight. This timing data represents the distance to an object and can be used for a variety of embedded and real-time applications.
 
    **Key Features**
-
-
     Real-time processing using Verilog on the iCE40HX1K FPGA.Trigger generation and echo pulse measurement logic.Precise distance timing based on the echo pulse width.Configurable via constraints (.pcf) and fully open-source toolchain (Yosys, nextpnr, IceStorm).Ready for UART/Display interfacing (optional extension).
 
  **Working Principle**
-
-
     The FPGA sends a 10μs HIGH pulse to the TRIG pin of the HC-SR04.The sensor emits an ultrasonic burst and waits for it to reflect. When the echo is detected, the ECHO pin goes HIGH       for a duration proportional to the distance.The FPGA measures this HIGH duration using a counter running on the system clock.The result can be displayed or transmitted via UART 
 
-  **Project Files**
+  **Project Files*
 
-
-   top.v: Verilog RTL for pulse generation and echo timing.constraints.pcf: FPGA pin mapping specific to the VSDSquadron board. Makefile: Automates synthesis, place-and-route, and          bitstream generation.top.bin: Final output bitstream for flashing onto the FPGA.
+   top.v: Verilog RTL for pulse generation and echo timing. Constraints.pcf: FPGA pin mapping specific to the VSDSquadron board.  Makefile: Automates synthesis, place-and-route, and          bitstream generation.top.bin: Final output bitstream for flashing onto the FPGA.
 
  **Outcome**
 
