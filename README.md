@@ -391,13 +391,17 @@ This project involves interfacing the HC-SR04 ultrasonic sensor with a  FPGA boa
  **Working Principle**
     The FPGA sends a 10μs HIGH pulse to the TRIG pin of the HC-SR04.The sensor emits an ultrasonic burst and waits for it to reflect. When the echo is detected, the ECHO pin goes HIGH       for a duration proportional to the distance.The FPGA measures this HIGH duration using a counter running on the system clock.The result can be displayed or transmitted via UART 
 
-  **Project Files*
+  **Project Files**
 
    top.v: Verilog RTL for pulse generation and echo timing. Constraints.pcf: FPGA pin mapping specific to the VSDSquadron board.  Makefile: Automates synthesis, place-and-route, and          bitstream generation.top.bin: Final output bitstream for flashing onto the FPGA.
 
  **Outcome**
 
 This project successfully demonstrates a low-cost, FPGA-based real-time sensing system using basic Verilog and open-source tools. It serves as a foundational block for more complex applications such as robotics, distance measurement systems, and real-time embedded control.
+
+ **Visual Description**
+
+  Block Diagram
 
 
 
