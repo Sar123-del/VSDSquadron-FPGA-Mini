@@ -417,6 +417,8 @@ This project successfully demonstrates a low-cost, FPGA-based real-time sensing 
  1. Install picocom by entering sudo apt install picocom
  2. Enter make terminal
  3. Serial teminal will open and distance will come
+
+ **Video Demostartion**
  
 
 
