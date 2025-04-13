@@ -374,7 +374,7 @@ This functionality is implemented in two main Verilog files:
 
 https://github.com/user-attachments/assets/33e8fb6e-daad-487e-8302-82dd0b5673c8
 
-# Task - 5
+# Task - 5 and 6
 
 **Real-Time Sensor Data Acquisition and Transmission System**
 
